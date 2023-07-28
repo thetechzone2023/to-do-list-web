@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f3e0f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #6b446b;
+  font-size: 24px;
+}
+
+.add-btn {
+  cursor: pointer;
+  background-color: #6b446b;
+  color: white;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #f9ebf9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: 500px; /* Updated width to 500px */
+  position: relative;
+}
+
+.item h2 {
+  color: #6b446b;
+  margin: 0;
+}
+
+.plus-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #6b446b;
+  font-size: 24px;
+  background-color: #f99fb9;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheading-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subheading-input input[type="text"] {
+  padding: 8px;
+  border: 2px solid #6b446b;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.subheading-input button {
+  background-color: #6b446b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-bar input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #6b446b;
+  font-size: 18px;
+  flex: 1;
+  margin-right: 10px;
+  background-color: transparent;
+  color: #6b446b;
+}
+
+.input-bar button {
+  background-color: #6b446b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-bar button:hover {
+  background-color: #904d90;
+}
+
+.subheading-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subheading-item p {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.button-container button {
+  background-color: #6b446b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.button-container button.complete-btn {
+  background-color: #6bb49e;
+}
+
+.button-container button.delete-btn {
+  background-color: #d66a6a;
+}
+
+.completed {
+  text-decoration: line-through;
+}
